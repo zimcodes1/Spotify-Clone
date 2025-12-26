@@ -1,5 +1,6 @@
 import HeroLeft from "./components/HeroLeft"
 import HeroRight from "./components/HeroRight"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -135,7 +136,15 @@ const App = () => {
             </span>
           </div>
         </div>
+        <h1 className="text-2xl text-gray-50 font-semibold text-center my-5">Enjoy Premuim Features With Our Students Discount</h1>
+        <p className="text-sm text-gray-400 text-center"> Spotify loves students, and we've got a special treat for you! Elevate your music experience without breaking the bank. Unlock all the <br /> premium features you love at an exclusive student discount.</p>
+        <span className="w-full flex justify-center">
+          <button className="text-gray-50 border-x border-gray-50 rounded-3xl px-5 py-2 mt-4 transition duration-300 hover:bg-green-500 hover:text-gray-950 hover:border-none">Learn More!</button>
+        </span>
       </div>
+
+      {/* Footer */}
+      <Footer></Footer>
     </div>
   )
 }
