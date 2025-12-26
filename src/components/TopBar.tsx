@@ -2,7 +2,7 @@
 
 export function TopBar() {
     return (
-        <div className="max-sm:hidden w-full flex z-50 justify-between items-center absolute top-0 right-0 px-15 pt-7 bg-none text-gray-50 max-[900px]:px-5">
+        <div className="max-sm:hidden w-full flex z-50 justify-between items-center absolute top-0 right-0 px-15 pt-7 bg-none text-gray-50 max-[900px]:px-5 max-[900px]:text-sm">
             <a href="#">Premium</a>
             <a href="#">Support</a>
             <a href="#">Download</a>

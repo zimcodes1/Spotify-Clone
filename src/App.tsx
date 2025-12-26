@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="bg-black h-fit w-full flex flex-wrap">
       {/*Hero Section*/}
-      <div className="flex justify-evenly p-2 w-full h-screen max-[900px]:h-125 max-sm:h-fit max-sm:flex-col">
+      <div className="flex justify-evenly p-2 w-full h-160 max-[900px]:h-125 max-sm:h-fit max-sm:flex-col">
         <HeroLeft />
         {/*Hero Right Component will go here*/}
         <HeroRight />
