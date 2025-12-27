@@ -71,7 +71,7 @@ const App = () => {
             </span>
 
             <span className="w-full">
-              <button className="w-[90%] block mx-auto py-1.5 border-2 border-gray-50 text-gray-50 rounded-3xl cursor-pointer transition duration-300 hover:bg-green-500 hover:border-green-500 hover:text-gray-900">View Plan</button>
+              <button className="w-[90%] block mx-auto mt-2 py-1.5 border-2 border-gray-50 text-gray-50 rounded-3xl cursor-pointer transition duration-300 hover:bg-green-500 hover:border-green-500 hover:text-gray-900">View Plan</button>
               <p className="text-center text-gray-400 text-xs underline mt-2">Terms and conditions apply.</p>
             </span>
           </div>
