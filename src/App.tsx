@@ -1,10 +1,14 @@
 import HeroLeft from "./components/HeroLeft"
 import HeroRight from "./components/HeroRight"
 import Footer from "./components/Footer"
+import QuickMusic from "./components/QuickMusic"
 
 const App = () => {
   return (
     <div className="bg-black h-fit w-full flex flex-wrap">
+      {/* Quick Music */}
+      <QuickMusic></QuickMusic>
+
       {/*Hero Section*/}
       <div className="flex justify-evenly p-2 w-full h-160 max-[900px]:h-125 max-sm:h-fit max-sm:flex-col">
         <HeroLeft />
